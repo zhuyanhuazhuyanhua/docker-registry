@@ -5,7 +5,7 @@ import (
 	"maps"
 	"sync"
 
-	"github.com/distribution/distribution/v3/internal/uuid"
+	"github.com/zhuyanhuazhuyanhua/docker-registry/internal/uuid"
 )
 
 // instanceContext is a context that provides only an instance id. It is
