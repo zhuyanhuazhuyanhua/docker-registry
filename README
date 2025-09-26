@@ -1,2 +1,4 @@
 1.上传,校验,容灾
 2.blob,manifest,manifest list
+API描述符`registry/api/v2/descriptors.go`
+主要定义API规范和路由描述符
