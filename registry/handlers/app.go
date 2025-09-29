@@ -8,10 +8,10 @@ import (
 	"github.com/distribution/distribution/v3/configuration"
 	"github.com/distribution/distribution/v3/notifications"
 	"github.com/distribution/distribution/v3/registry/auth"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
 	"github.com/docker/go-events"
 	"github.com/gorilla/mux"
 	"github.com/redis/go-redis/v9"
+	storagedriver "github.com/zhuyanhuazhuyanhua/docker-registry/registry/storage/driver"
 )
 
 // App is a global registry application object. Shared resources can be placed
