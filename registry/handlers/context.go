@@ -38,6 +38,10 @@ type Context struct {
 	// context.Context for injection of these resources.
 }
 
+func getUploadUUID(ctx context.Context) (uuid string) {
+	return dcontext.GetStringValue(ctx, "vars.uuid")
+}
+
 var errDigestNotAvailable = fmt.Errorf("digest not available in context")
 
 func getDigest(ctx context.Context) (dgst digest.Digest, err error) {
